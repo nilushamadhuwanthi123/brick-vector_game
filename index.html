@@ -510,9 +510,9 @@
   function showOverlay(el){ el.hidden = false; }
   function hideOverlay(el){ el.hidden = true; }
 
-  startBtn.addEventListener('click', startGame);
-  retryBtn.addEventListener('click', startGame);
-  resumeBtn.addEventListener('click', togglePause);
+  startBtn.addEventListener('click', () => { startBtn.blur(); startGame(); });
+  retryBtn.addEventListener('click', () => { retryBtn.blur(); startGame(); });
+  resumeBtn.addEventListener('click', () => { resumeBtn.blur(); togglePause(); });
 
   function startGame(){
     resetGame();
