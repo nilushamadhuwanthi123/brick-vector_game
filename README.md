@@ -19,4 +19,4 @@ This project demonstrates a fixed-timestep game-loop architecture decoupled from
 Just open `index.html` in a browser — no build step, no install.
 
 ## Live version
-TBD — will be added after deployment
+Play it here: https://nilushamadhuwanthi123.github.io/brick-vector_game/
